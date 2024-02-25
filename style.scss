@@ -42,6 +42,8 @@ body {
   gap: 40px;
 }
 
+// hero
+
 .hero {
   background-repeat: no-repeat;
   background: linear-gradient(rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.605)),
@@ -69,6 +71,8 @@ body {
   margin-right: auto;
 }
 
+// singnature
+
 .singnature__box {
   display: flex;
   justify-content: space-between;
@@ -89,7 +93,7 @@ body {
   margin-bottom: 50px;
   display: block;
   position: relative;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
 
   &::after {
     content: "";
@@ -105,11 +109,13 @@ body {
   }
 }
 
+// buy
+
 .buy-text {
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 25px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .buy-title {
@@ -121,7 +127,7 @@ body {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   margin-bottom: 60px;
 }
 
@@ -136,35 +142,33 @@ body {
 }
 
 .buy__button {
-    width: 200px;
-    height: 60px;
-    font-size: 22px;
-    letter-spacing: 0.3em;
+  width: 200px;
+  height: 60px;
+  font-size: 22px;
+  letter-spacing: 0.3em;
 }
 
 .buy__box {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
 
-.modal-textarea {
-    color: #7b7b7b;
-}
+// carousel
 
 .section-carosel {
-    padding-top: 60px;
-    padding-bottom: 40px;
-    background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #fff;
 }
 
 .carousel {
-    height: 358px;
-    width: 500px;
+  height: 358px;
+  width: 500px;
 }
 
 .carosel__img {
-    width: 500px;
+  width: 500px;
 }
 
 .section-carosel__container1 {
@@ -181,7 +185,8 @@ body {
 .section-carosel__container2 {
   display: flex;
   gap: 150px;
-  align-items: center;}
+  align-items: center;
+}
 
 .section-carosel__container2 img {
   width: 500px;
@@ -190,6 +195,8 @@ body {
 li {
   list-style: none;
 }
+
+// footer
 
 .footer {
   background-color: #eeeeee;
@@ -205,8 +212,30 @@ li {
   justify-content: center;
 }
 
+// modal
 
+.modal-content {
+  background-color: #aea7b0;
+}
 
+.modal-textarea {
+  color: #7b7b7b;
+}
 
+.modal-title,
+.form-label,
+.form-text,
+.form-check-label {
+  color: #20212b;
+}
 
+.btn-primary {
+  background-color: #534145;
+  border: none;
 
+  &:hover {
+    background-color: #53414538;
+    border: 2px solid #534145;
+    color: #403235;
+  }
+}

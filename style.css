@@ -142,10 +142,6 @@ body {
   justify-content: center;
 }
 
-.modal-textarea {
-  color: #7b7b7b;
-}
-
 .section-carosel {
   padding-top: 60px;
   padding-bottom: 40px;
@@ -198,4 +194,29 @@ li {
   display: flex;
   gap: 300px;
   justify-content: center;
+}
+
+.modal-content {
+  background-color: #aea7b0;
+}
+
+.modal-textarea {
+  color: #7b7b7b;
+}
+
+.modal-title,
+.form-label,
+.form-text,
+.form-check-label {
+  color: #20212b;
+}
+
+.btn-primary {
+  background-color: #534145;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: rgba(83, 65, 69, 0.2196078431);
+  border: 2px solid #534145;
+  color: #403235;
 }/*# sourceMappingURL=style.css.map */

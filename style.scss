@@ -204,6 +204,10 @@ li {
 
 .footer-svg {
   width: 27px;
+
+  &:hover {
+    fill: #fed7a5;
+  }
 }
 
 .footer__list {

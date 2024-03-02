@@ -189,6 +189,9 @@ li {
 .footer-svg {
   width: 27px;
 }
+.footer-svg:hover {
+  fill: #fed7a5;
+}
 
 .footer__list {
   display: flex;
